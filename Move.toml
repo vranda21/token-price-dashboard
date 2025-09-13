@@ -1,0 +1,15 @@
+[package]
+name = "token-price-dashboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x3a12846547960c91858bb731c2d20e01df01704aed14845d6fb6444552cb82b0"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
